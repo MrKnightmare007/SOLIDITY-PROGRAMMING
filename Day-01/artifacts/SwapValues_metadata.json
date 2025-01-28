@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_b",
+						"type": "int256"
+					}
+				],
+				"name": "setValues",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "swapUsingThirdVariable",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "swapWithoutThirdVariable",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-01/D1P5.sol": "SwapValues"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-01/D1P5.sol": {
+			"keccak256": "0x03c9097c245730f4c2865ed2e61aefa0345dafcd320866f43fd254c441ee95bc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://81e0e9968587a85ac3f2f7ef6cb4b9bf001cb01829c7b432492fe409a44c5eea",
+				"dweb:/ipfs/Qmb6zbbeHyGeoJzZdQ4KBB7AJtaVteu3YTsdsQNRBH98e1"
+			]
+		}
+	},
+	"version": 1
+}
