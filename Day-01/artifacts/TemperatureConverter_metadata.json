@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "celsius",
+						"type": "int256"
+					}
+				],
+				"name": "celsiusToFahrenheit",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-01/D1P3.sol": "TemperatureConverter"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-01/D1P3.sol": {
+			"keccak256": "0x34dbe6e061b6e4edcdc9d3f85a070d7de42c9324757dd85221a5c0753250c91d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2a52f1e2ab50232b4fb39b404a83acc8099cb02c2f647134e70cf66584f15941",
+				"dweb:/ipfs/Qmf6ZBTA3SEUJWEnaqvu21uvQU5VafUmpm1SgfFgXCn5ft"
+			]
+		}
+	},
+	"version": 1
+}
