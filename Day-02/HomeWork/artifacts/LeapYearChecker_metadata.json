@@ -6,23 +6,22 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "greet",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "prints",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "isLeapYear",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -39,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-01/D1P1.sol": "HelloWorld"
+			"Day-02/HomeWork/D2H1.sol": "LeapYearChecker"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Day-01/D1P1.sol": {
-			"keccak256": "0xc53105967aa77c9810b85b24cb46be06d39e6200aa781d0ba032663409d25269",
+		"Day-02/HomeWork/D2H1.sol": {
+			"keccak256": "0x30a55dc26e16cab455c12a1c83ef5f237084b7b5d638ca99e7a10778c4e714e1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dcaa847f1ec4519395575b7034f5ac260b018bde530339a753b03e0f9454df81",
-				"dweb:/ipfs/QmPrS1Y5pUKdQ5oMzkM987Y39DgL9mdiH1NCd3VkP8S3zG"
+				"bzz-raw://845bcd15677b560c14929b08b1086a4394ff85f691621127cd527b59b244418d",
+				"dweb:/ipfs/QmU59TtM269rhSHsGTHmiwAP9BAk4JkbB7bx1kEfwSYrj8"
 			]
 		}
 	},
