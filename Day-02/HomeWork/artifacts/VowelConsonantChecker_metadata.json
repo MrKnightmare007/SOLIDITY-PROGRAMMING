@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "_char",
+						"type": "bytes1"
+					}
+				],
+				"name": "checkAlphabet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-02/HomeWork/D2H2.sol": "VowelConsonantChecker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-02/HomeWork/D2H2.sol": {
+			"keccak256": "0x6bb962a37a7eb53e9a256aa5db367404a0ec472ec713c7964aab321bca2deaae",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9b62360606ddb586bc640938ea57795edb6ec64a86a497ce5c3918c4e4c010ae",
+				"dweb:/ipfs/QmYL2wBcFJTh6S4wWLy8o174kaRDfS3zvXkigawqWV69WN"
+			]
+		}
+	},
+	"version": 1
+}
