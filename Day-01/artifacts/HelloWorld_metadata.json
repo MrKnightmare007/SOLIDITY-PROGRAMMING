@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -41,7 +41,7 @@
 		"compilationTarget": {
 			"Day-01/D1P1.sol": "HelloWorld"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -54,11 +54,11 @@
 	},
 	"sources": {
 		"Day-01/D1P1.sol": {
-			"keccak256": "0xc53105967aa77c9810b85b24cb46be06d39e6200aa781d0ba032663409d25269",
+			"keccak256": "0xcbe7a0900a09c4b0488187ac7e751b590182d633c0e498c7a77dc268e6667cd0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dcaa847f1ec4519395575b7034f5ac260b018bde530339a753b03e0f9454df81",
-				"dweb:/ipfs/QmPrS1Y5pUKdQ5oMzkM987Y39DgL9mdiH1NCd3VkP8S3zG"
+				"bzz-raw://2e3194b3afed93038513525346496c1333455f1e01e797d440d972ed1cad7fa5",
+				"dweb:/ipfs/QmXsZMPT4kJWXwDS2zK3jDyMLkuGiPJTMcecgFXxf5Zmmy"
 			]
 		}
 	},
