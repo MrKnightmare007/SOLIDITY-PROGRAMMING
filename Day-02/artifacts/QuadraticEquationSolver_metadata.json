@@ -1,0 +1,260 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "c",
+						"type": "int256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint8",
+						"name": "rootType",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "root1Real",
+						"type": "int256"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "root1Imaginary",
+						"type": "int256"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "root2Real",
+						"type": "int256"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "root2Imaginary",
+						"type": "int256"
+					}
+				],
+				"name": "RootsCalculated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "c",
+						"type": "int256"
+					}
+				],
+				"name": "getQuadraticRoots",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint8",
+								"name": "rootType",
+								"type": "uint8"
+							},
+							{
+								"components": [
+									{
+										"internalType": "int256",
+										"name": "real",
+										"type": "int256"
+									},
+									{
+										"internalType": "int256",
+										"name": "imaginary",
+										"type": "int256"
+									}
+								],
+								"internalType": "struct QuadraticEquationSolver.Complex",
+								"name": "root1",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "int256",
+										"name": "real",
+										"type": "int256"
+									},
+									{
+										"internalType": "int256",
+										"name": "imaginary",
+										"type": "int256"
+									}
+								],
+								"internalType": "struct QuadraticEquationSolver.Complex",
+								"name": "root2",
+								"type": "tuple"
+							}
+						],
+						"internalType": "struct QuadraticEquationSolver.Roots",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "rootType",
+						"type": "uint8"
+					}
+				],
+				"name": "getRootTypeName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "c",
+						"type": "int256"
+					}
+				],
+				"name": "solveQuadratic",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint8",
+								"name": "rootType",
+								"type": "uint8"
+							},
+							{
+								"components": [
+									{
+										"internalType": "int256",
+										"name": "real",
+										"type": "int256"
+									},
+									{
+										"internalType": "int256",
+										"name": "imaginary",
+										"type": "int256"
+									}
+								],
+								"internalType": "struct QuadraticEquationSolver.Complex",
+								"name": "root1",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "int256",
+										"name": "real",
+										"type": "int256"
+									},
+									{
+										"internalType": "int256",
+										"name": "imaginary",
+										"type": "int256"
+									}
+								],
+								"internalType": "struct QuadraticEquationSolver.Complex",
+								"name": "root2",
+								"type": "tuple"
+							}
+						],
+						"internalType": "struct QuadraticEquationSolver.Roots",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-02/D2P4.sol": "QuadraticEquationSolver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-02/D2P4.sol": {
+			"keccak256": "0xb136aced33adc66835432eb9e8dde6cd287267a66005c7f06648afa5caf1910c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d5c7757a4ddb8b9205c89af55c663401cce5dc5137d90bd6ca6ea655c58e3f48",
+				"dweb:/ipfs/QmQPgcC8n6hAFKny8BMM5M3GScbK5VBU73SYbyVcrmgHPZ"
+			]
+		}
+	},
+	"version": 1
+}
