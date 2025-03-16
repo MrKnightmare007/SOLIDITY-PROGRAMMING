@@ -1,0 +1,264 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum SimpleCalculator.Operation",
+						"name": "operation",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "result",
+						"type": "int256"
+					}
+				],
+				"name": "CalculationPerformed",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "operationCode",
+						"type": "uint8"
+					}
+				],
+				"name": "calculate",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "calculationHistory",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum SimpleCalculator.Operation",
+						"name": "operation",
+						"type": "uint8"
+					},
+					{
+						"internalType": "int256",
+						"name": "result",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "clearCalculationHistory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCalculationCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getCalculationFromHistory",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "num1",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "num2",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum SimpleCalculator.Operation",
+								"name": "operation",
+								"type": "uint8"
+							},
+							{
+								"internalType": "int256",
+								"name": "result",
+								"type": "int256"
+							}
+						],
+						"internalType": "struct SimpleCalculator.Calculation",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "operationCode",
+						"type": "uint8"
+					}
+				],
+				"name": "getCalculationResult",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "operationCode",
+						"type": "uint8"
+					}
+				],
+				"name": "getOperationName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-02/D2P5.sol": "SimpleCalculator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-02/D2P5.sol": {
+			"keccak256": "0xa347287805e51efb9a2a87a5b33122943cde47300f4cc158ba301ebdca03e561",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5bc241e9189e465370759c21c69ab9ada7c363d919b92f8ecd5734cc6ed9c161",
+				"dweb:/ipfs/QmSCL6eA6SYdoKMC7MErDqkRQkzYJusfpH5AzUxPFzrRTc"
+			]
+		}
+	},
+	"version": 1
+}
