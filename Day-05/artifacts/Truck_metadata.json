@@ -9,23 +9,28 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "_make",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "_location",
+						"name": "_model",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_salary",
+						"name": "_year",
 						"type": "uint256"
 					},
 					{
 						"internalType": "string",
-						"name": "_jobTitle",
+						"name": "_fuelType",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_cargoCapacity",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -33,7 +38,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "calculateBonus",
+				"name": "cargoCapacity",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -45,8 +50,40 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "fuelAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "distanceTraveled",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "jobTitle",
+				"name": "fuelEfficiency",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fuelType",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -59,7 +96,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "location",
+				"name": "make",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -72,7 +109,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "manageProjects",
+				"name": "maxSpeed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "model",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -85,33 +135,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "performanceReport",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "salary",
+				"name": "year",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -136,7 +160,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-06/D6P1.sol": "Developer"
+			"Day-05/D5P2.sol": "Truck"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -150,12 +174,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Day-06/D6P1.sol": {
-			"keccak256": "0x2212de71412ba5c252a9f78b1b01eab25cec35aaa2324301cd51080fa72adff8",
-			"license": "MIT",
+		"Day-05/D5P2.sol": {
+			"keccak256": "0x36978d9562f6d145500d7e436b2f397bfc910deed0b9b1060e4f003c1abdbc80",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f2f76dcd545fa8bdfd54d7824601faa903ed023d02ea86dc946bdb80cc1d257d",
-				"dweb:/ipfs/QmWRVqQU5wGWZLSZzF63a3HMqnbQhmS7En3FJd4RW1j99z"
+				"bzz-raw://bd6c97bab80a38d6c25967062a65b5b6f8eb3034e071cb70b70ec8c4d516b80f",
+				"dweb:/ipfs/QmTSg2ZPrFzWtP3ikiLGaS2ApnVbTMkjxXeaZJtJ58dfp5"
 			]
 		}
 	},

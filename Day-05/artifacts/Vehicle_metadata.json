@@ -26,11 +26,6 @@
 						"internalType": "string",
 						"name": "_fuelType",
 						"type": "string"
-					},
-					{
-						"internalType": "bool",
-						"name": "_hasSideCar",
-						"type": "bool"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -76,19 +71,6 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "hasSideCar",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -160,7 +142,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-06/D6P2.sol": "Motorcycle"
+			"Day-05/D5P2.sol": "Vehicle"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -174,7 +156,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Day-06/D6P2.sol": {
+		"Day-05/D5P2.sol": {
 			"keccak256": "0x36978d9562f6d145500d7e436b2f397bfc910deed0b9b1060e4f003c1abdbc80",
 			"license": "GPL-3.0",
 			"urls": [

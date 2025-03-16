@@ -136,7 +136,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-06/D6P1.sol": "Employee"
+			"Day-05/D5P1.sol": "Manager"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -150,7 +150,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Day-06/D6P1.sol": {
+		"Day-05/D5P1.sol": {
 			"keccak256": "0x2212de71412ba5c252a9f78b1b01eab25cec35aaa2324301cd51080fa72adff8",
 			"license": "MIT",
 			"urls": [

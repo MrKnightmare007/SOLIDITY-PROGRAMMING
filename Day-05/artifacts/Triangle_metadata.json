@@ -8,24 +8,29 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_location",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_salary",
+						"name": "_side1",
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
-						"name": "_jobTitle",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_side2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_side3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_base",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_height",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -33,7 +38,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "calculateBonus",
+				"name": "base",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -46,12 +51,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "jobTitle",
+				"name": "getArea",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -59,12 +64,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "location",
+				"name": "getPerimeter",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -72,12 +77,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "manageProjects",
+				"name": "height",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -85,12 +90,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "name",
+				"name": "side1",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -98,12 +103,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "performanceReport",
+				"name": "side2",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -111,7 +116,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "salary",
+				"name": "side3",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -136,7 +141,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-06/D6P1.sol": "Programmer"
+			"Day-05/D5P3.sol": "Triangle"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -150,12 +155,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Day-06/D6P1.sol": {
-			"keccak256": "0x2212de71412ba5c252a9f78b1b01eab25cec35aaa2324301cd51080fa72adff8",
+		"Day-05/D5P3.sol": {
+			"keccak256": "0x77f0dcfc6f48b556e8d71b183a339c79682fe057c343b4b50689b3b4d3253d0a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f2f76dcd545fa8bdfd54d7824601faa903ed023d02ea86dc946bdb80cc1d257d",
-				"dweb:/ipfs/QmWRVqQU5wGWZLSZzF63a3HMqnbQhmS7En3FJd4RW1j99z"
+				"bzz-raw://d07c69aba283a9e34e537c927081cc4d511297acc8c5b4868453cc6a6bcad68b",
+				"dweb:/ipfs/Qmd79VDcDngVK8Q68bySu85iQWZ9Jeed15EM2ibGpZ8V7J"
 			]
 		}
 	},

@@ -26,28 +26,10 @@
 						"internalType": "string",
 						"name": "_fuelType",
 						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_cargoCapacity",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "cargoCapacity",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			},
 			{
 				"inputs": [
@@ -160,7 +142,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-06/D6P2.sol": "Truck"
+			"Day-05/D5P2.sol": "Car"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -174,7 +156,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Day-06/D6P2.sol": {
+		"Day-05/D5P2.sol": {
 			"keccak256": "0x36978d9562f6d145500d7e436b2f397bfc910deed0b9b1060e4f003c1abdbc80",
 			"license": "GPL-3.0",
 			"urls": [

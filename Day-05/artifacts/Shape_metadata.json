@@ -6,22 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_length",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_width",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
 				"name": "getArea",
 				"outputs": [
@@ -46,32 +30,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "length",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "width",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -87,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-06/D6P3.sol": "Rectangle"
+			"Day-05/D5P3.sol": "Shape"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -101,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Day-06/D6P3.sol": {
+		"Day-05/D5P3.sol": {
 			"keccak256": "0x77f0dcfc6f48b556e8d71b183a339c79682fe057c343b4b50689b3b4d3253d0a",
 			"license": "MIT",
 			"urls": [
