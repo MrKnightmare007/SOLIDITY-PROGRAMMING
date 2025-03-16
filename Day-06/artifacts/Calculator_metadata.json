@@ -1,0 +1,448 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "operation",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "result",
+						"type": "int256"
+					}
+				],
+				"name": "CalculationPerformed",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "operation",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"name": "UintCalculationPerformed",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "absoluteValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "absoluteValueView",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "addView",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "divide",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "divideView",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "base",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "exponent",
+						"type": "uint256"
+					}
+				],
+				"name": "exponentiation",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "base",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "exponent",
+						"type": "uint256"
+					}
+				],
+				"name": "exponentiationView",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "modulo",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "moduloView",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "multiplyView",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "squareRoot",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "squareRootView",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "subtract",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "subtractView",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-06/D6P2.sol": "Calculator"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-06/D6P2.sol": {
+			"keccak256": "0x85d74b5c36439462a4b306b6ddc8aa150328cacfd0620287df42d360bc82baca",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4abf99f68439ffaf39c2006cf7202c71c0e76d9f82881efd9ad21d16db8ddfaa",
+				"dweb:/ipfs/Qma5TSevfMCnDgqie2TvVyRNSMwD7ztvLNMNtm3re2DGup"
+			]
+		}
+	},
+	"version": 1
+}

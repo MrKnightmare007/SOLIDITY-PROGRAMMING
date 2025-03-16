@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-06/D6P2.sol": "MathExtension"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-06/D6P2.sol": {
+			"keccak256": "0x85d74b5c36439462a4b306b6ddc8aa150328cacfd0620287df42d360bc82baca",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4abf99f68439ffaf39c2006cf7202c71c0e76d9f82881efd9ad21d16db8ddfaa",
+				"dweb:/ipfs/Qma5TSevfMCnDgqie2TvVyRNSMwD7ztvLNMNtm3re2DGup"
+			]
+		}
+	},
+	"version": 1
+}
