@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "A",
+						"type": "int256[][]"
+					},
+					{
+						"internalType": "int256[][]",
+						"name": "B",
+						"type": "int256[][]"
+					}
+				],
+				"name": "addMatrices",
+				"outputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "",
+						"type": "int256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "A",
+						"type": "int256[][]"
+					},
+					{
+						"internalType": "int256[][]",
+						"name": "B",
+						"type": "int256[][]"
+					}
+				],
+				"name": "multiplyMatrices",
+				"outputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "",
+						"type": "int256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "A",
+						"type": "int256[][]"
+					},
+					{
+						"internalType": "int256[][]",
+						"name": "B",
+						"type": "int256[][]"
+					}
+				],
+				"name": "subtractMatrices",
+				"outputs": [
+					{
+						"internalType": "int256[][]",
+						"name": "",
+						"type": "int256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-04/D4P1.sol": "MatrixOperations"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-04/D4P1.sol": {
+			"keccak256": "0x36f472376d31ffaf1b5b534ba49cb75697652f9b91edbcd870b2dbe82af93a45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d320c7d3a874bb2f59aa4e6456ae6ace121d82b8375afac6805d0dd9e343e9f1",
+				"dweb:/ipfs/QmerqmRsJvtxhEUoV3pX8fTSEVK7TvxDkZyUhbB7MZfQSz"
+			]
+		}
+	},
+	"version": 1
+}
