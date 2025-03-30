@@ -1,0 +1,251 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marksInPhysics",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marksInChemistry",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marksInMathematics",
+						"type": "uint256"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllStudents",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "roll",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "marksInPhysics",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "marksInChemistry",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "marksInMathematics",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "totalMarks",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct StudentManagement.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "marksInPhysics",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "marksInChemistry",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "marksInMathematics",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalMarks",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStudentCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "rollExists",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sortStudentsByTotalMarks",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "marksInPhysics",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "marksInChemistry",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "marksInMathematics",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalMarks",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-08/HomeWork/D8P1.sol": "StudentManagement"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-08/HomeWork/D8P1.sol": {
+			"keccak256": "0x3dddc4dbb4b0ce976c435204aa0627e2fa033dd1c787805abec76bf0478e3df0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93fbba276ebcad91e823ba71dc602058c5e43406bfb5efcd625bd23d6ae374db",
+				"dweb:/ipfs/QmaGHkmYvcK24eHz8HvGMYncsB5DiggibWgt8LFs82WcZz"
+			]
+		}
+	},
+	"version": 1
+}
