@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_radius",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_height",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_slantHeight",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "surfaceArea",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "volume",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-09/D9P3.sol": "Cone"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-09/D9P3.sol": {
+			"keccak256": "0x7dbe2de5636e687364e2b2be3ded3cdd1133c650dcb52116406ee23f045a57af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d864efdeba063176b596cb80a0aba6a5b87d403246826e1daec3aa690bd17032",
+				"dweb:/ipfs/QmPxN9zhPYmV9yTvRBRaw1o6o7dcb4KrR2qsTC6HpVtPun"
+			]
+		}
+	},
+	"version": 1
+}

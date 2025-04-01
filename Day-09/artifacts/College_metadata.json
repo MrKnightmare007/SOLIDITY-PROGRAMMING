@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "DeptHead",
+				"name": "getCollegeCode",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "deptName",
+				"name": "getCollegeName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -29,42 +29,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "displayDepartmentDetails",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_deptName",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_DeptHead",
-						"type": "string"
-					}
-				],
-				"name": "setDepartmentDetails",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -81,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-09/D9P2.sol": "Department"
+			"Day-09/D9P2.sol": "College"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
