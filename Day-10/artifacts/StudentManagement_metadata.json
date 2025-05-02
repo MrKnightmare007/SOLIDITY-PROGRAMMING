@@ -1,0 +1,228 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "regdNo",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "studentAddress",
+						"type": "address"
+					}
+				],
+				"name": "StudentAdmitted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "regdNo",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "newHostelName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "newHostelLocation",
+						"type": "string"
+					}
+				],
+				"name": "StudentMigrated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_regdNo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_electiveSubject",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_avgMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_deptName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_deptHead",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_hostelName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_hostelLocation",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numberOfRooms",
+						"type": "uint256"
+					}
+				],
+				"name": "admitNewStudent",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_regdNo",
+						"type": "string"
+					}
+				],
+				"name": "displayStudentDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_regdNo",
+						"type": "string"
+					}
+				],
+				"name": "getStudentAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_regdNo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_newHostelName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_newHostelLocation",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newNumberOfRooms",
+						"type": "uint256"
+					}
+				],
+				"name": "migrateStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "studentCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-10/D10P1.sol": "StudentManagement"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-10/D10P1.sol": {
+			"keccak256": "0xfec786bc13bef51d0a982077522b5d864ef772a4fb91ba549724001b2fe8a368",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c2944730af52efb34c8ca65d7ddb1c6402c64ac960f8c880a711de0f35adfc66",
+				"dweb:/ipfs/QmdP3aUq529JhNz1AYAa7TLCuknoBae62iB7vC4yR7iyZF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "printDepartmentDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day-10/D10P1.sol": "Department"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day-10/D10P1.sol": {
+			"keccak256": "0xfec786bc13bef51d0a982077522b5d864ef772a4fb91ba549724001b2fe8a368",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c2944730af52efb34c8ca65d7ddb1c6402c64ac960f8c880a711de0f35adfc66",
+				"dweb:/ipfs/QmdP3aUq529JhNz1AYAa7TLCuknoBae62iB7vC4yR7iyZF"
+			]
+		}
+	},
+	"version": 1
+}
