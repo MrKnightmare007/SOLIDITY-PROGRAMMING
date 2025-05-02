@@ -7,33 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "deptHead",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "deptName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getDepartmentDetails",
+				"name": "display",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -47,24 +21,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_deptName",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_deptHead",
-						"type": "string"
-					}
-				],
-				"name": "setDepartmentDetails",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -81,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-10/D10P2.sol": "Department"
+			"Day-10/D10P2.sol": "College"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

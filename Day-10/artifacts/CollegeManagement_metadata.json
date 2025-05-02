@@ -6,51 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "deptHead",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "deptName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getDepartmentDetails",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
+						"name": "_collegeName",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "_collegeCode",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "string",
 						"name": "_deptName",
@@ -60,11 +26,52 @@
 						"internalType": "string",
 						"name": "_deptHead",
 						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_regNo",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marks",
+						"type": "uint256"
 					}
 				],
-				"name": "setDepartmentDetails",
+				"name": "createStudent",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getReportCard",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "contract Student",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -81,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-10/D10P2.sol": "Department"
+			"Day-10/D10P2.sol": "CollegeManagement"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

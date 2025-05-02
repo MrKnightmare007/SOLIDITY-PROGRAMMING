@@ -9,23 +9,13 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_studentName",
+						"name": "_collegeName",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "_regdNo",
+						"name": "_collegeCode",
 						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_electiveSubject",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_avgMarks",
-						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -39,17 +29,17 @@
 					},
 					{
 						"internalType": "string",
-						"name": "_hostelName",
+						"name": "_studentName",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "_hostelLocation",
+						"name": "_regNo",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_numberOfRooms",
+						"name": "_marks",
 						"type": "uint256"
 					}
 				],
@@ -58,12 +48,25 @@
 			},
 			{
 				"inputs": [],
-				"name": "avgMarks",
+				"name": "collegeCode",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "collegeName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -97,8 +100,13 @@
 			},
 			{
 				"inputs": [],
-				"name": "electiveSubject",
+				"name": "display",
 				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
 					{
 						"internalType": "string",
 						"name": "",
@@ -110,84 +118,13 @@
 			},
 			{
 				"inputs": [],
-				"name": "getData",
+				"name": "getDepartmentDetails",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
 					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getHostelDetails",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "hostelLocation",
-				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
@@ -199,20 +136,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "hostelName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numberOfRooms",
+				"name": "marks",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -225,7 +149,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "printData",
+				"name": "printReportCard",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -238,38 +162,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "printDepartmentDetails",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "printHostelDetails",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "regdNo",
+				"name": "regNo",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -284,37 +177,16 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_newHostelLocation",
+						"name": "_deptName",
 						"type": "string"
-					}
-				],
-				"name": "setHostelLocation",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "string",
-						"name": "_newHostelName",
+						"name": "_deptHead",
 						"type": "string"
 					}
 				],
-				"name": "setHostelName",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_newNumberOfRooms",
-						"type": "uint256"
-					}
-				],
-				"name": "setNumberOfRooms",
+				"name": "setDepartmentDetails",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -346,7 +218,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-10/D10P1.sol": "Student"
+			"Day-10/D10P2.sol": "Student"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -360,12 +232,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Day-10/D10P1.sol": {
-			"keccak256": "0xfec786bc13bef51d0a982077522b5d864ef772a4fb91ba549724001b2fe8a368",
+		"Day-10/D10P2.sol": {
+			"keccak256": "0x46fd6f1b3288e514df0c0f890e35d5ccde6d143899aa6150adcdae1d5d8a79fa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c2944730af52efb34c8ca65d7ddb1c6402c64ac960f8c880a711de0f35adfc66",
-				"dweb:/ipfs/QmdP3aUq529JhNz1AYAa7TLCuknoBae62iB7vC4yR7iyZF"
+				"bzz-raw://78c164237ea960b3c8d53618ee812cd913b1df0a5ef6c1fe349106005a75f698",
+				"dweb:/ipfs/QmTTcG3mgQJ8BzEgMTLENnzZkNQuNmWByaLMGKjPxA3Sgm"
 			]
 		}
 	},
