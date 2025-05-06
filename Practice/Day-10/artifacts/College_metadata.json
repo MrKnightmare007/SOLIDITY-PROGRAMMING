@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "collegeDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/Day-10/P2.sol": "College"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/Day-10/P2.sol": {
+			"keccak256": "0x7bd9607175c9303ec56d3bd62f5e91ce34d1160661f1128a83df97b9018c573b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7c17a926fef560ae201e7790e6295e0005050c7a68976e11f7c9d6e3f600dee8",
+				"dweb:/ipfs/QmS41LpjZnr8R3zZUZYxAZuPpU6eTduV9HysCibNT1f3TS"
+			]
+		}
+	},
+	"version": 1
+}

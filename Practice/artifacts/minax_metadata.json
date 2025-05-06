@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/P9.sol": "minax"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/P9.sol": {
+			"keccak256": "0x6df4297c28b187841afa05dbda0540f1774672bf9dc6c2cdffd771cf5ce623e7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad1dafd0aa24cf9ffedad20070c84af4207ee843330be39907ee53de33224e69",
+				"dweb:/ipfs/QmcUdoXwHWVFZanyz8M616LFnYxJj1WCBgMjagheTtrrjA"
+			]
+		}
+	},
+	"version": 1
+}

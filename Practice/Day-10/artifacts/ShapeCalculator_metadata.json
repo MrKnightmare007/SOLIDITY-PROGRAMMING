@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cs",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cyr",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cyh",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cor",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "coh",
+						"type": "uint256"
+					}
+				],
+				"name": "shapeCalculate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "cusa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cuv",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cysa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cyv",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cosa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cov",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/Day-10/P3.sol": "ShapeCalculator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/Day-10/P3.sol": {
+			"keccak256": "0xc9337582c452fbb00afa6c3b44cc0abc0f360667b2c8212d027ceed2406508bc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b8b82def838f521337adc853f85d143bc3bde6c3e650770cdb164c3e6c253043",
+				"dweb:/ipfs/QmZK8AXSx1EJiNERRCeJcU8f4SeurfjTmxAm96TA1Wa722"
+			]
+		}
+	},
+	"version": 1
+}

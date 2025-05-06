@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "testFibonacci",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/Day-07/test.sol": "MathVerifier"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/Day-07/test.sol": {
+			"keccak256": "0xda2ba3fb24fdd1c786958e0ba4dd483fa090587dbe4cde9f739166ffd5290040",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07f3e7563eff5b6f608a8359c283f40232aec2095a925a38b174a9f6704478c1",
+				"dweb:/ipfs/QmeVowdTn1CMwLT5sutGSC8ofKR8TQ5Prhp9GrPn4tiKsu"
+			]
+		}
+	},
+	"version": 1
+}

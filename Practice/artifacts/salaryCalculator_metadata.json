@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "HRA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "basic",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_basic",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_DA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_HRA",
+						"type": "uint256"
+					}
+				],
+				"name": "setSalary",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalPay",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/P7.sol": "salaryCalculator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/P7.sol": {
+			"keccak256": "0x813230c8b3f6598a99944e9e2928abdae3783a59e9527488f71181fbd5c9c4fb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b95abcc63c5a1aabf6ce19661fb8e515015dd4c89a512b59e618adfc0ab12fb9",
+				"dweb:/ipfs/QmNn7LoZD7s3PfWeo6Hoj4fG8rURu8uoai3a8EBFnq7aua"
+			]
+		}
+	},
+	"version": 1
+}

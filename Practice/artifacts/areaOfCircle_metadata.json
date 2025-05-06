@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "radius",
+						"type": "uint256"
+					}
+				],
+				"name": "area",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/P5.sol": "areaOfCircle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/P5.sol": {
+			"keccak256": "0xc57b1bce8969bd816a5c407974b871d094d02256f27e2ab424e65d8527d3c6f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://572f3c42d3803e92c84a9a41e9a6d667562efc101f4215ac782d38a8bfa4712d",
+				"dweb:/ipfs/QmfXACyirQiFKZMUabtg7uBT3Gig77PYgVFrCESH2BLDGX"
+			]
+		}
+	},
+	"version": 1
+}

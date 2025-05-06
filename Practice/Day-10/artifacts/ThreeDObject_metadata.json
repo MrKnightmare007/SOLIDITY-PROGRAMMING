@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "surfaceArea",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "volume",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/Day-10/P3.sol": "ThreeDObject"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/Day-10/P3.sol": {
+			"keccak256": "0xb88fbc9dcdf9a5759a0812bbc2405055ef7fff9ecea1e662441c4ad94e885a2b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3cb99764a1164310828dcc8de04b051d103045a227601d911f3bdb84c6f58fa0",
+				"dweb:/ipfs/Qme7zTei26n8ptmDQesfJvf4A8yikEpLB8ifbwwXtA1kjj"
+			]
+		}
+	},
+	"version": 1
+}

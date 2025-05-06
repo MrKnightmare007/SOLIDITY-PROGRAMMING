@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "temp",
+						"type": "int256"
+					}
+				],
+				"name": "convert",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/P2.sol": "temperatureConvert"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/P2.sol": {
+			"keccak256": "0x1049c1f1deaa059247e72065b338405cde50fd5b7e2aedb8a66e4f0bfe3fe596",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5b4544889d57441f8890da95646315e432c5bcc0f239c279006070f956be519",
+				"dweb:/ipfs/QmVt3no8gv3eGeAGcKGJx7iV7KPaE9SffVzmKtmBTN1Zes"
+			]
+		}
+	},
+	"version": 1
+}

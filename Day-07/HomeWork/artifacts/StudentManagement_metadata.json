@@ -224,7 +224,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day-08/HomeWork/D8P1.sol": "StudentManagement"
+			"Day-07/HomeWork/D7P1.sol": "StudentManagement"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -238,7 +238,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Day-08/HomeWork/D8P1.sol": {
+		"Day-07/HomeWork/D7P1.sol": {
 			"keccak256": "0x3dddc4dbb4b0ce976c435204aa0627e2fa033dd1c787805abec76bf0478e3df0",
 			"license": "MIT",
 			"urls": [
